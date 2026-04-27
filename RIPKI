@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BONO</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Comic Sans MS", cursive;
+            background: linear-gradient(45deg, pink, violet, cyan, yellow);
+            background-size: 400% 400%;
+            animation: bg 6s infinite alternate;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        @keyframes bg {
+            0% {background-position: left;}
+            100% {background-position: right;}
+        }
+
+        .box {
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 8vw; /* responsive */
+            color: white;
+            text-shadow: 2px 2px 8px black;
+            animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+            0% {opacity: 1;}
+            50% {opacity: 0.3;}
+            100% {opacity: 1;}
+        }
+
+        .emot {
+            font-size: 6vw;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="emot">💖✨💘🥺💔😭💞🔥😜💋💥</div>
+        <h1>💔 RIFKI JANGAN GAMON 💔</h1>
+        <div class="emot">😭💘✨💖🔥🥺💞💋😜💥</div>
+    </div>
+</body>
+</html>
